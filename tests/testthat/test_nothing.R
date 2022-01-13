@@ -1,5 +1,3 @@
-library(testthat)
-
 describe("Test all is ready", {
   it("return one", {
     expected <- 1
