@@ -2,6 +2,9 @@ library(covr)
 library(testthat)
 cobertura <- file_coverage(
   c(
+    "R/do_nothing.R"
+  ),
+  c(
     "tests/testthat/test_nothing.R"
   )
 )
