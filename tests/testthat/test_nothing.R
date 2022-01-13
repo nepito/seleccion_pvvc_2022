@@ -4,6 +4,11 @@ describe("Test all is ready", {
     obtained <- return_one()
     expect_equal(expected, obtained)
   })
+  it("return two", {
+    expected <- 2
+    obtained <- return_two()
+    expect_equal(expected, obtained)
+  })
 })
 
 describe("Get version of the module", {
