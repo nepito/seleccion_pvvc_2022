@@ -1,10 +1,10 @@
 describe("Test all is ready", {
-  it("return one", {
+  it("Return one", {
     expected <- 1
     obtained <- return_one()
     expect_equal(expected, obtained)
   })
-  it("return two", {
+  it("Return two", {
     expected <- 2
     obtained <- return_two()
     expect_equal(expected, obtained)
